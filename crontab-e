@@ -1,0 +1,4 @@
+0 0 * * 5 /bin/bash /backup/script/backup_weekly.sh > /var/log/backup_weekly.log
+0 0 * * * /bin/bash /backup/script/backup_cleaner_weekly.sh > /var/log/backup_cleaner_weekly.log
+0 0 * * * /bin/bash /backup/script/backup_daily.sh > /var/log/backup_daily.log
+0 0 * * * /bin/bash /backup/script/backup_cleaner_daily.sh > /var/log/backup_cleaner_daily.log
